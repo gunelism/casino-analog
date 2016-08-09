@@ -1,0 +1,48 @@
+#main{
+	position:relative;
+	width: 1000px;
+	height: 1000px;
+	margin: 0 auto;
+
+	#wheel{
+		margin-top: 20%;
+			
+		#teker{
+		-webkit-transition: all 2s ease-in-out;
+		 img{
+			display: block;
+			margin: 0 auto;
+		}
+	}
+		#pointer{
+			// -webkit-transition: all 2s ease-in-out;
+	    		// transform-origin: right;
+	    		// transform: rotate(-20deg);
+			 	transition:all 0.1s;
+				position: absolute;
+				top: 24.6%;
+	    		right: 14.5%;
+	    		
+					}	
+}
+
+		#button1{
+			position: absolute;
+			top: 0;
+			right: 0;
+			background-image: url('../image/button-normal.png');
+			background-size: 100%;
+			background-repeat: no-repeat;
+			width: 250px;
+			height:250px;
+
+			span{
+				top: 47%;
+   				 left: 30%;
+				position: absolute;
+				color: white;
+				font-weight:600;
+			}
+		}
+
+}

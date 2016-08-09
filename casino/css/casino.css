@@ -1,0 +1,34 @@
+#main {
+  position: relative;
+  width: 1000px;
+  height: 1000px;
+  margin: 0 auto; }
+  #main #wheel {
+    margin-top: 20%; }
+    #main #wheel #teker {
+      -webkit-transition: all 2s ease-in-out; }
+      #main #wheel #teker img {
+        display: block;
+        margin: 0 auto; }
+    #main #wheel #pointer {
+      transition: all 0.1s;
+      position: absolute;
+      top: 24.6%;
+      right: 14.5%; }
+  #main #button1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url("../image/button-normal.png");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    width: 250px;
+    height: 250px; }
+    #main #button1 span {
+      top: 47%;
+      left: 30%;
+      position: absolute;
+      color: white;
+      font-weight: 600; }
+
+/*# sourceMappingURL=casino.css.map */
